@@ -1,0 +1,9 @@
+.idea/
+node_modules/
+**/public/*
+!**/public/index.html
+/src/resources/maxmind.mmdb
+sendgrid.env
+*.log
+/logs
+/config

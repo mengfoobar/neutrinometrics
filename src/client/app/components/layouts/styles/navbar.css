@@ -1,0 +1,55 @@
+nav .container{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 35px;
+    width: 100%;
+}
+
+.navbar .navbar-nav > li > a,
+.navbar .navbar-brand
+{
+    /*color: #666;*/
+    /*text-decoration: none;*/
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar .navbar-brand{
+    padding-left: 28px;
+}
+
+/*.navbar .navbar-brand:hover,*/
+/*.navbar .navbar-brand:focus{*/
+    /*color: #666;*/
+/*}*/
+
+/*.navbar .navbar-nav > li > a:hover,*/
+/*.navba-inverse .navbar-nav > li > a:focus*/
+/*{*/
+    /*color: #333;*/
+    /*text-decoration: none;*/
+/*}*/
+
+.navbar .app-id{
+    font-size: 15px;
+    color: #a6a6a6;
+}
+
+.navbar .app-name{
+    font-size: 28px;
+}
+
+/*.navbar .navbar-nav > .open > a:hover,*/
+/*.navbar .navbar-nav > .open > a:focus{*/
+    /*color: #333;*/
+    /*text-decoration: none;*/
+    /*background-color: #fcfcfc;*/
+/*}*/
+
+.navbar  .dropdown-toggle{
+    font-size: 25px;
+}
+
+.dropdown .icon {
+    font-size: 18px;
+    padding-right: 5px;
+}

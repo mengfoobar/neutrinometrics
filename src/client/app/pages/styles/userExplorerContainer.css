@@ -1,0 +1,62 @@
+.userExplorerContainer.container{
+    width: 100%;
+}
+
+/*TODO: optimize/cleanup with css module*/
+.userExplorerContainer  .tabNavContainer-horizontal {
+    position: fixed;
+    width: 100%;
+    padding-top: 20px;
+    padding-left:55px;
+    background: #fff;
+    z-index: 10
+}
+
+.userExplorerContainer .tabContentContainer-horizontal{
+    margin-top: 60px
+}
+
+
+
+.Select--multi .Select-value{
+    margin-top: 8px;
+}
+
+.Select-control{
+    height: 42px;
+}
+
+.Select-placeholder{
+    font-size: 16px;
+    padding-top: 3px;
+}
+
+
+.Select.show-rows-select{
+    width: 340px;
+}
+
+.Select.data-cols-select{
+    width: 600px;
+}
+
+.show-rows-select .Select-value-label{
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    color: transparent;
+    text-shadow: rgb(85, 85, 85) 0px 0px 0px;
+}
+
+.show-rows-select .Select-value{
+    padding-top: 3px;
+}
+
+.has-value.Select--single > .Select-control .Select-value .Select-value-label{
+    color: transparent;
+    text-shadow: rgb(85, 85, 85) 0px 0px 0px;
+}
+
+.public_fixedDataTable_main {
+    z-index: 0;
+}

@@ -1,0 +1,21 @@
+.userEventsContainer.container{
+    width: 100%
+}
+
+.userEventsContainer > .header-row {
+    padding: 30px 0 20px 50px;
+    height: 100px;
+    margin: 0;
+}
+
+.userEventsContainer > .dateRange-row{
+    padding: 5px 0 0 70px;
+    height:60px;
+}
+
+.userEventsContainer > .dateRange-row .label{
+    margin:0;
+    padding: 5px 0 0;
+    min-width:185px;
+}
+

@@ -1,0 +1,21 @@
+.modal.login {
+    background:#1BA39C;
+}
+
+.login .modal-container{
+    height:275px;
+    width: 100%;
+    padding: 0;
+}
+
+.login .modal-container .icon-message-container{
+    padding-top: 20%;
+}
+
+.login .brand-img{
+    padding-bottom: 20px;
+}
+
+.login .brand-img img{
+    height:50px;
+}

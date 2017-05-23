@@ -1,0 +1,41 @@
+#settingsModal{
+    padding: 5px 15px;
+}
+
+#settingsModal .control-label{
+    float: left;
+    color: #595959;
+    padding: 0 0 3px 2px;
+    width: 100%;
+    text-align: left;
+
+}
+
+#settingsModal .modal-header-1{
+    font-size: 28px;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+    color: #595959
+}
+
+#settingsModal .modal-header-2{
+    font-size: 20px;
+    text-align: right;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    display: block;
+    margin: auto 0;
+    color: #737373;
+
+}
+
+#settingsModal .dropdown-select{
+    width: 300px;
+    float: left;
+}
+
+.modal-body {
+    max-height: 620px;
+    overflow-y: scroll;
+}

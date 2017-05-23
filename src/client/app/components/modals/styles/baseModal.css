@@ -1,0 +1,31 @@
+/*TODO: move this somewhere else*/
+.modal-open .modal.register
+{
+    background:#1BA39C;
+}
+
+.modal-content{
+    border: none;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    border-radius:0px;
+}
+
+.modal-dialog {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%) !important;
+}
+
+
+.list-label {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+.input-group{
+    width: 100%;
+}
+

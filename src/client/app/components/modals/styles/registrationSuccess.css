@@ -1,0 +1,25 @@
+p {
+    text-align: left;
+}
+
+.body-text{
+    margin: 0px;
+    text-align: left;
+    color: #262626
+}
+
+.body-text.header {
+    padding-bottom: 5px;
+    padding-top: 28px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #595959;
+}
+
+.registration-success .modal-container{
+    max-height: 550px;
+}
+
+.modal.registration-success {
+    background:#1BA39C;
+}

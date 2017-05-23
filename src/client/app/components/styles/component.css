@@ -1,0 +1,64 @@
+.component-title{
+    font-size: 25px;
+    padding-bottom: 18px;
+    font-family: 'Quicksand', sans-serif;
+    color: #808080;
+    padding-left: 40px
+}
+.tinyArea-col .header{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+}
+.tinyArea-col .subHeader{
+    font-weight: normal;
+    padding-left: 12px;
+}
+
+.main-header .title{
+    width:inherit;
+    font-family: 'Quicksand', sans-serif;
+    color: #666666;
+    font-size: 38px;
+    border-bottom: 1px solid #eee;
+}
+
+.dateRangePicker > input{
+    width: 340px;
+    font-size: 23px;
+    height: 42px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/***
+    Bootstrap override
+ ***/
+
+.btn .caret {
+    float: right;
+    margin-top: 8px;
+}
+
+.dropdown-select .btn{
+    text-align: left;
+    width: inherit;
+}
+
+.dropdown-menu > li > a {
+    height: 35px;
+    padding-top: 8px;
+}
+
+@media screen and (max-width: 1350px) {
+    .tinyArea-col .header{
+        font-size: 28px;
+    }
+
+    .tinyArea-col .subHeader{
+        font-size: 12px;
+    }
+
+    .component-title{
+        font-size: 20px;
+    }
+}

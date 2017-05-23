@@ -1,0 +1,62 @@
+.eventsContainer{
+    width: 100%
+}
+
+.eventsContainer .header-row{
+    padding: 30px 0 0 60px;
+    height:100px;
+}
+
+.eventsContainer .dateRange-container{
+    padding: 20px 0 0 70px;
+    height:80px;
+}
+
+.eventsContainer .dateRange-container .widget,
+.eventsContainer .events-multiSelect-container .widget{
+    margin:0;
+    padding:0;
+}
+
+.eventsContainer .dateRange-container .label,
+.eventsContainer .events-multiSelect-container .label{
+    margin:0;
+    padding: 5px 0 0;
+    min-width:185px;
+}
+
+.eventsContainer .dateRange-container .label span,
+.eventsContainer .events-multiSelect-container .label span{
+    font-size: 23px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: #666666;
+}
+
+.eventsContainer .events-multiSelect-container{
+    padding: 10px 0 30px 70px;
+}
+
+.eventsContainer .chart-container{
+    padding: 30px 20px 20px;
+    height:480px;
+}
+
+/*TODO: move this into widget layout once complete*/
+
+.Select--multi .Select-value{
+    margin-top: 8px;
+}
+
+.Select-control{
+    height: 42px;
+}
+
+.Select {
+    width: 340px;
+}
+
+.Select-placeholder{
+    font-size: 16px;
+    padding-top: 3px;
+}
